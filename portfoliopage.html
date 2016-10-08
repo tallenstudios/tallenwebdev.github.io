@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Design with Tyler</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  </head>
+  <body>
+    <video autoplay loop muted id="bgvideo">
+        <source src="images/free_nature_video_background_004_1920x1080_30fps.mp4" type="video/mp4">
+    </video>
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/crown.png" class="logo"></a>
+            <a href="#" id="webtitle"><h1>Web Design with Tyler</h1></a>
+            <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+            	<span class="sr-only">
+              		Toggle navigation
+           	 </span>
+            	<span class="icon-bar">
+           	 </span>
+            	<span class="icon-bar">
+            	</span>
+            	<span class="icon-bar">
+            	</span>
+          </button>
+          </div>
+          <div class="navbar-collapse collapes" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                    <li class="activepage"><a href="portfoliopage.html">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+      
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Portfolio <br /><span id="smallertext">(client projects coming soon..)</span></h1>
+        </div>
+        
+        
+        <div class="container-fluid">
+            <div class="carousel slide" id="myCarousel" dataride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/applandingpage.PNG">
+                        <div class="carousel-caption">
+                            <a href="https://tallenwebdev.github.io/app-landing-page/"><p>App Landing Pages - click to preview</p></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/photosite.PNG">
+                        <div class="carousel-caption">
+                            <a href="https://tallenwebdev.github.io/bays-photography/index.html"><p>Sites using only raw HTML and CSS - click to preview</p></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/allaboutlabssite.PNG">
+                        <div class="carousel-caption">
+                            <a href="https://tallenwebdev.github.io/all-about-labs/"><p>Informative/Small Business sites - click to preview</p></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/firstwordpresssite.PNG">
+                        <div class="carousel-caption">
+                            <a href="http://firstwordpresssite.webdesignwithtyler.com/"><p>WordPress Blogs - click to preview</p></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+            </div>
+        </div>
+      
+        
+        <div class="contact">
+            <div class="container">
+                <a href="#" class="btn">Get in touch</a>
+            </div>    
+        </div>
+        
+        <div class="footer" id="portfoliofooter">
+            <div class="container">
+                <p>&copy; Web Design with Tyler. 2016</p>
+            </div>    
+        
+        </div>
+      
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+body{
+    font-family: Arvo, serif;
+}
+
+#bgvideo {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+.logo{
+    height: 30px;
+}
+
+.navbar-inverse{
+    background: rgba(0, 0, 0, .5);
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover, .activepage{
+    border-bottom: 1px solid #00FFBB;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+#webtitle{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 1000;
+}
+
+#projectdisplay{
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+#projectdisplay h2{
+    margin-bottom: 30px;
+}
+
+#projectdisplay p{
+    margin: 30px 40px;
+}
+
+.bodyimage{
+    height: 100px;
+}
+
+.col-med-4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.col-med-3{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.icons p{
+    font-size: 15px;
+}
+
+h4{
+    color: #00FFBB;
+}
+
+#smallertext{
+    font-size: 10px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+.btn{
+    background: rgba(0, 255, 187, 0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    position: static;
+    bottom: 0px;
+    width: 100%;
+}
+
+#aboutlist{
+    list-style: none;
+}
+
+#myCarousel{
+    margin: 0 300px;
+}
+
+.carousel-caption{
+    margin-top: 10px;
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 100px;
+}
+
+.carousel-caption a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    #bgvideo{
+	display: none;
+    }
+    body{
+	background: url(https://freenaturestock.s3.amazonaws.com/232.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+    }
+    #webtitle{
+	display: none;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .logo{
+	height: 22px;
+    }
+    .activepage{
+        border: none;
+    }
+    .contact{
+        margin-bottom: 50px;
+    }
+    .bodyimage{
+        height: 70px;
+    }
+    #myCarousel{
+        margin: 0 0;
+    }
+    .footer{
+	padding: 2px 0;
+	font-size: 8px;
+        position: static;
+        width: auto;
+    }
+}
